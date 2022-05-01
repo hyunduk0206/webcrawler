@@ -3,7 +3,7 @@ import cheerio from "cheerio";
 
 const getHtml = async () => {
     try {
-        return await axios.get("https://www.donkey.fund/main");
+        return await axios.get("https://www.example.com");
     } catch (err) {
         console.log(err);
     }
